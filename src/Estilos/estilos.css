@@ -1,0 +1,293 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #F3F3E0;
+    color: #183B4E;
+  }
+  
+ 
+  header {
+    background-color: #27548A;
+    color: #F3F3E0;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+ 
+  h1, h2 {
+    margin: 0 0 10px;
+  }
+  
+ 
+  main {
+    padding: 30px 40px;
+  }
+  
+ 
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+ 
+  button {
+    background-color: #3108ff;
+    color: #183B4E;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c89545;
+  }
+  
+ 
+  footer {
+    background-color: #183B4E;
+    color: #F3F3E0;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+ 
+ .titulos
+ {
+   border: #183B4E;
+   color: #183B4E;
+      text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+ 
+ }
+ /* botonera -inicio*/
+  .boton_inico {
+ 
+   margin: 10px;
+   margin-left: 0px;
+   margin-top: 0px;  
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #2d19db;
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+ }
+ .boton_postulacion{
+ 
+   margin: 10px;
+   margin-left: 700px;
+   margin-top: 100px;
+   display: inline-block;
+   padding: 30px 30px;
+   background-color: #2d19db;
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+ }
+ .boton_becas{
+   margin: 10px;
+   margin-left: 700px;
+   margin-top: 10px;
+   display: inline-block;
+   padding: 30px 30px;
+   background-color: #2d19db;
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+ }
+ .boton_preg 
+ {
+   margin: 10px;
+   margin-left: 400px;
+   margin-top: 0px;  
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #2d19db;
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+ }
+ .boton_preg_puntual
+ {
+   margin: 10px;
+   margin-left: 600px;
+   margin-top: 0px;  
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #2d19db;
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+ }
+ .boton_volver
+ {
+   margin: 10px;
+   margin-left: 10px;
+   margin-top: 0px;  
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #2d19db;
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+ }
+ 
+ 
+ .boton:hover {
+   background-color: #004d99;
+ }
+ .contenedor-botones {
+   padding: 40px;
+   text-align: center;
+ }
+ /* botonera-fin*/
+ 
+ /* letritas inicio*/
+ 
+  .justificado {
+   text-align: justify;
+ }
+ body {
+   text-align: justify;
+ }
+ .centrado
+ {
+   text-align: center;
+ }
+ .lista_color
+ {
+   color:white;
+ }
+ /* letritas fin*/
+ 
+ /* formulario  */
+ .formulario {
+   background-color: #ffffff;
+   padding: 30px 40px;
+   border-radius: 15px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+ }
+ 
+ .formulario h2 {
+   text-align: center;
+   color: #183B4E;
+   margin-bottom: 25px;
+ }
+ 
+ .formulario label {
+   font-weight: bold;
+   display: block;
+   margin-top: 15px;
+   color: #27548A;
+ }
+ 
+ .formulario input[type="text"],
+ .formulario input[type="email"],
+ .formulario input[type="number"],
+ .formulario input [type="file"],
+ .formulario textarea {
+   width: 100%;
+   padding: 10px 12px;
+   margin-top: 8px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-sizing: border-box;
+   font-size: 16px;
+   transition: border-color 0.3s;
+ }
+ 
+ .formulario input:focus,
+ .formulario textarea:focus {
+   border-color: #27548A;
+   outline: none;
+ }
+ 
+ .formulario textarea {
+   resize: vertical;
+ }
+ 
+ .boton-enviar {
+   background-color: #27548A;
+   color: white;
+   border: none;
+   padding: 12px 20px;
+   margin-top: 25px;
+   width: 100%;
+   border-radius: 10px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+ 
+ .boton-enviar:hover {
+   background-color: #183B4E;
+ }
+ .form-login {
+  background: #f7f7f7;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  max-width: 350px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-login label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+  align-self: flex-start;
+}
+.form-login input[type="text"],
+.form-login input[type="password"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.2s;
+}
+.form-login input[type="text"]:focus,
+.form-login input[type="password"]:focus {
+  border: 1.5px solid #0077cc;
+  outline: none;
+}
+.form-login button {
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.form-login button:hover {
+  background: #005fa3;
+}
